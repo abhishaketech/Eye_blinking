@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(90deg, rgba(14, 115, 137, 1.0), rgba(49, 143, 163, 0.65), rgba(19, 193, 231, 0.39));
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+img {
+    height: 225px;
+    width: 350px;
+    margin: auto;
+    padding: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Belanosima', sans-serif;
+    margin: 10px 80px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.submit_button {
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: aliceblue;
+    font-size: medium;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.submit_button:active{
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: beige;
+    font-size: medium;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 50px;
+    color: rgb(202, 215, 225);
+    font-size: 25px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.about {
+    font-size: large;
+}
